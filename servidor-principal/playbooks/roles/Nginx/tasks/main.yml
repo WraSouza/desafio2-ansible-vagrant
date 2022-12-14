@@ -1,0 +1,4 @@
+---
+- name: Instalar NGINX
+  apt: name=nginx state=latest
+  notify: Reiniciando nginx

@@ -1,0 +1,3 @@
+---
+- name: Reiniciando nginx
+  service: name=nginx state=restarted
